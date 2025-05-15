@@ -12,6 +12,7 @@ import connect8 from './img2.png'
 import insta from './insta.png'
 import facebook from './facebook.png'
 import Youtube  from './youtube.png'
+import pic1 from './about1.png'
 const assets = {
     logo,
     highlight,
@@ -26,7 +27,8 @@ const assets = {
     connect8,
     insta,
     facebook,
-    Youtube
+    Youtube,
+    pic1
 }
 
 export default assets ;
