@@ -22,7 +22,10 @@ const About = () => {
 
       <hr className='border border-gray-300 w-[80%] ' />
 
-      <div>
+      <div className='flex justify-center items-center' >
+        <div className='w-[80%]' >
+
+        </div>
 
       </div>
 
