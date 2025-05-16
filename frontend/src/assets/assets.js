@@ -1,5 +1,5 @@
 import logo from './logo.png'
-import highlight from './highlight_01.png'
+import highlight from './Highlight_01.png'
 import shape from './Shap.png'
 import connect1 from './connectit-app-1.png'
 import connect2 from './connectit-app-2.png'
