@@ -3,7 +3,7 @@ import assets from '../../assets/assets'
 import { IoStorefront } from "react-icons/io5";
 const About = () => {
   return (
-    <div className=' flex flex-col justify-center items-center font-sans bg-gradient-to-tl from-violet-200 via-yellow-50 to-blue-200' >
+    <div className=' flex flex-col justify-center items-center font-sans bg-gradient-to-tl from-violet-200 via-yellow-100 to-blue-200' >
 
       <div className='flex justify-center items-center pt-35 pb-10 ' >
         <div className='p-2.5 w-[90%] ' >
@@ -41,7 +41,7 @@ const About = () => {
 
       <hr className='border border-gray-300 w-[90%]  ' />
 
-      <div className='w-[90%] flex flex-col justify-center items-center' >
+      <div className='w-[90%] flex flex-col justify-center items-center mb-5' >
 
         <div className='flex flex-col justify-center items-center pt-32 pb-5 ' >
           <div className='w-[500px] flex flex-col justify-center items-center ' >
@@ -52,7 +52,7 @@ const About = () => {
         </div>
 
         <div className=' md:flex block justify-center items-center ' >
-          <div className='p-10 h-[350px] m-5 lg:w-[786px] md:w-[600px] w-[400px] bg-[#2CBCA5] rounded-2xl' >
+          <div className='p-10 h-[350px] m-5 lg:w-[790px] md:w-[600px] w-[400px] bg-[#2CBCA5] rounded-2xl' >
             <div className='pb-5' >
             <p className='md:text-5xl text-3xl font-semibold text-[#272C2E] pb-4 '>Supporting Businesses of Every Size & Industry</p>
             </div>
@@ -69,6 +69,31 @@ const About = () => {
             </div>
             <h5 className='text-[21px] font-semibold pt-1.5 mb-3' >Small & Mid-Sized Businesses (SMBs)</h5>
             <p className='text-[16px]  mb-2 text-gray-700' >Across industries like retail, healthcare, education, and more.</p>
+          </div>
+        </div>
+
+
+        <div className='grid grid-cols-1 md:grid-cols-3 w-[95%]' >
+          <div className='p-10 m-5 bg-white rounded-2xl ' >
+            <div>
+              <IoStorefront className='text-[55px]' />
+            </div>
+            <h5 className='text-[21px] font-semibold pt-1.5 mb-3' >Small & Mid-Sized Businesses (SMBs)</h5>
+            <p className='text-[16px]  mb-2 text-gray-700' >Across industries like retail, healthcare, education, and more.</p>
+          </div>
+          <div className='p-10 m-5 bg-white rounded-2xl ' >
+            <div>
+              <IoStorefront className='text-[55px]' />
+            </div>
+            <h5 className='text-[21px] font-semibold pt-1.5 mb-3' >Small & Mid-Sized Businesses (SMBs)</h5>
+            <p className='text-[16px]  mb-2 text-gray-700' >Across industries like retail, healthcare, education, and more.</p>
+          </div>
+          <div className='p-10 m-5 bg-white rounded-2xl ' >
+            <div>
+              <IoStorefront className='text-[55px]' />
+            </div>
+            <h5 className='text-[21px] font-semibold pt-1.5 mb-3' >Small & Mid-Sized Businesses (SMBs)</h5>
+            <p className='text-[16px]  mb-2 text-gray-700' >Across industries like retail, healthcare, education, and more.</p>            
           </div>
         </div>
 

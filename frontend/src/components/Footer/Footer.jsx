@@ -7,12 +7,13 @@ const Footer = () => {
 
             <div className='my-8 ' >
                 <div className='md:flex  block justify-center md:justify-between pb-2 ' >
-                    <div className='mx-8' >
-                        <img className='md:w-75 w-60 mb-1 md:mb-8' src={assets.connect8} alt="" />
-                        <img className='md:w-75 w-60 mb-1 md:mb-8' src={assets.connect7} alt="" />
+                    <div className='mx-8 flex md:block md:justify-center justify-between ' >
+                        <img className='md:w-75 w-40 mb-1 md:mb-8' src={assets.connect8} alt="" />
+                        <img className='md:w-75 w-40 mb-1 md:mb-8' src={assets.connect7} alt="" />
                     </div>
-                    <div className='mx-8' >
-                        <div className='pb-8 text-[13px] md:text-[15px]' >
+                    <hr className='w-full md:hidden flex md:w-1/2 border-gray-400 my-4' />
+                    <div className='mx-8 md:my-0 my-2 flex md:block md:justify-center justify-between  ' >
+                        <div className='md:pb-8 pb-5 text-[12px] md:text-[15px]' >
                             <p className='md:mb-4 mb-1 font-semibold' >Made in India with❤</p>
                             <p className='md:mb-4 mb-1 font-semibold' >Technolite Business Solutions PVT LTD</p>
                             <p className='md:mb-4 mb-1 font-semibold' >525, Suratwala Mark Plazzo, Hinjewadi Pune</p>
@@ -22,19 +23,19 @@ const Footer = () => {
                         <div>
                             <p className='text-[18px] mb-1 md:mb-5 font-bold' >Social Channel</p>
                             <div className='flex gap-6 my-3 md:my-5' >
-                                <img className='w-10 hover:scale-125 transform transition-all duration-300' src={assets.insta} alt="" />
-                                <img className='w-10 hover:scale-125 transform transition-all duration-300' src={assets.facebook} alt="" />
-                                <img className='w-10 hover:scale-125 transform transition-all duration-300' src={assets.Youtube} alt="" />
+                                <img className='md:w-10 w-7 hover:scale-125 transform transition-all duration-300' src={assets.insta} alt="" />
+                                <img className='md:w-10 w-7 hover:scale-125 transform transition-all duration-300' src={assets.facebook} alt="" />
+                                <img className='md:w-10 w-7 hover:scale-125 transform transition-all duration-300' src={assets.Youtube} alt="" />
                             </div>
                         </div>
                     </div>
-                    <div className='mx-8' >
+                    <div className='mx-8 flex md:block md:justify-center justify-between ' >
                         <div>
-                            <h5 className='md:text-2xl text-xl font-bold mb-1 md:mb-4' >+91 8237214521</h5>
+                            <h5 className='md:text-2xl text-[18px] font-bold mb-1 md:mb-4' >+91 8237214521</h5>
                             <p className='text-[15px]' >WhatsApp or Call</p>
                         </div>
-                        <div className='md:mt-6 mt-2' >
-                            <h5 className='md:text-2xl text-xl font-bold mb-1 md:mb-4' >sales@connectitapp.in</h5>
+                        <div className='md:mt-6 mt-0' >
+                            <h5 className='md:text-2xl text-[18px] font-bold mb-1 md:mb-4' >sales@connectitapp.in</h5>
                             <p className='text-[15px]' >9AM-6PM</p>
                         </div>
                     </div>
@@ -45,10 +46,10 @@ const Footer = () => {
 
             <div className='md:flex block justify-between' >
                 <div>
-                    <p className='text-[13px] text-[#A0A1A2] ' >Copyright ©2025 CONNECTit App. All rights reserved</p>
+                    <p className='text-[13px] text-[#A0A1A2] md:text-left text-center ' >Copyright ©2025 CONNECTit App. All rights reserved</p>
                 </div>
                 <div>
-                    <ul className='flex   mb-4' >
+                    <ul className='flex mb-4' >
                         <li className='px-3 text-[13px] font-semibold  ' >home</li>
                         <li className='px-3 text-[13px] font-semibold  ' >pricing</li>
                         <li className='px-3 text-[13px] font-semibold  ' >privacy policy</li>
