@@ -13,6 +13,8 @@ import insta from './insta.png'
 import facebook from './facebook.png'
 import Youtube  from './youtube.png'
 import pic1 from './about1.png'
+import pic2 from './partner.png'
+import pic3 from './partner2.png'
 const assets = {
     logo,
     highlight,
@@ -28,7 +30,9 @@ const assets = {
     insta,
     facebook,
     Youtube,
-    pic1
+    pic1,
+    pic2,
+    pic3
 }
 
 export default assets ;
