@@ -28,9 +28,9 @@ const Home = () => {
 
                     <div className='pt-20' >
                         <div className='flex justify-center items-center' >
-                            <div className='m-5 p-2.5 w-[340px] -mt-40 ' ><img className='rounded-3xl' src={assets.connect1} alt="" /></div>
-                            <div className='m-5 p-2.5 w-[340px]' ><img className='rounded-3xl' src={assets.connect2} alt="" /></div>
-                            <div className='m-5 p-2.5 w-[340px] -mt-40 ' ><img className='rounded-3xl' src={assets.connect3} alt="" /></div>
+                            <div className='m-5 p-2.5 w-[300px] -mt-40 ' ><img className='rounded-3xl' src={assets.connect1} alt="" /></div>
+                            <div className='m-5 p-2.5 w-[300px]' ><img className='rounded-3xl' src={assets.connect2} alt="" /></div>
+                            <div className='m-5 p-2.5 w-[300px] -mt-40 ' ><img className='rounded-3xl' src={assets.connect3} alt="" /></div>
                         </div>
                     </div>
 
