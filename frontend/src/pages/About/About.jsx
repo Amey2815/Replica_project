@@ -44,9 +44,9 @@ const About = () => {
       <div className='w-[90%] flex flex-col justify-center items-center mb-5' >
 
         <div className='flex flex-col justify-center items-center pt-32 pb-5 ' >
-          <div className='w-[500px] flex flex-col justify-center items-center ' >
+          <div className='md:w-[500px] w-[450px] flex flex-col justify-center items-center ' >
             <h1 className='text-5xl font-bold pb-9' >Who we help</h1>
-            <p className='text-[18px] text-xs/8 text-center mb-4 font-semibold text-[#666666]' >From SMBs to freelancers, CONNECTit delivers smart communication and marketing solutions tailored to meet diverse industry needs and drive success.</p>
+            <p className='md:text-[18px] text-[14px]  text-center mb-4 font-semibold text-[#666666]' >From SMBs to freelancers, CONNECTit delivers smart communication and marketing solutions tailored to meet diverse industry needs and drive success.</p>
           </div>
 
         </div>

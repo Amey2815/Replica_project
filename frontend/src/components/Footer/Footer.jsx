@@ -7,8 +7,8 @@ const Footer = () => {
 
             <div className='md:my-8 my-3' >
                 <div className='md:flex  block justify-center md:justify-between pb-2 ' >
-                    <div className='mx-8 flex justify-center ' >
-                        <img className='md:w-75 w-30 mb-1 md:mb-8' src={assets.logo} alt="" />
+                    <div className='mx-8 flex justify-center items-center' >
+                        <img className='md:h-30 h-15 mb-1 md:mb-8' src={assets.logo} alt="" />
                     </div>
                     <hr className='w-full md:hidden flex md:w-1/2 border-gray-400 my-4' />
                     <div className='md:mx-8 mx-0 md:my-0 my-2 flex md:block md:justify-center justify-between  ' >

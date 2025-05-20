@@ -26,11 +26,11 @@ const Home = () => {
                     </div>
 
 
-                    <div className='pt-20' >
+                    <div className='pt-20 flex justify-center items-center' >
                         <div className='flex justify-center items-center' >
-                            <div className='m-5 p-2.5 w-[300px] -mt-40 ' ><img className='rounded-3xl' src={assets.connect1} alt="" /></div>
-                            <div className='m-5 p-2.5 w-[300px]' ><img className='rounded-3xl' src={assets.connect2} alt="" /></div>
-                            <div className='m-5 p-2.5 w-[300px] -mt-40 ' ><img className='rounded-3xl' src={assets.connect3} alt="" /></div>
+                            <div className='m-5 p-2.5 md:w-[300px] w-[100px] -mt-40  ' ><img className='rounded-[8px] w-full ' src={assets.connect1} alt="" /></div>
+                            <div className='m-5 p-2.5 md:w-[300px] w-[100px]' ><img className='rounded-[8px] w-full ' src={assets.connect2} alt="" /></div>
+                            <div className='m-5 p-2.5 md:w-[300px] w-[100px] -mt-40 ' ><img className='rounded-[8px] w-full ' src={assets.connect3} alt="" /></div>
                         </div>
                     </div>
 
