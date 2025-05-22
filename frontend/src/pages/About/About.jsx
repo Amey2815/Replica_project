@@ -11,7 +11,7 @@ const About = () => {
             <div className='p-2.5 mr-7'>
               <p className='text-[16px] font-semibold md:text-left text-center mb-4 text-[#2CBCA5] ' >About</p>
               <h1 className='text-6xl  font-bold md:text-left text-center mb-4 pb-5' >Founded on trust. Focused on relationships.</h1>
-              <p className='text-[18px] text-[#666666] md:text-left text-center font-semibold mb-4 '>Developed by Technolite Business Solutions Pvt. Ltd., CONNECTit stands as a testament to our unwavering commitment to empowering businesses with innovative, efficient solutions tailored for success.</p>
+              <p className='text-[18px] text-[#666666] md:text-left text-center font-semibold mb-4 '> QuickTalk stands as a testament to our unwavering commitment to empowering businesses with innovative, efficient solutions tailored for success.</p>
             </div>
             <div className=' h-[412px] p-2.5 hidden md:flex justify-center items-start' >
               <img className='h-[315px]' src={assets.pic1} alt="" />
@@ -46,7 +46,7 @@ const About = () => {
         <div className='flex flex-col justify-center items-center pt-32 pb-5 ' >
           <div className='md:w-[500px] w-[450px] flex flex-col justify-center items-center ' >
             <h1 className='text-5xl font-bold pb-9' >Who we help</h1>
-            <p className='md:text-[18px] text-[14px]  text-center mb-4 font-semibold text-[#666666]' >From SMBs to freelancers, CONNECTit delivers smart communication and marketing solutions tailored to meet diverse industry needs and drive success.</p>
+            <p className='md:text-[18px] text-[14px]  text-center mb-4 font-semibold text-[#666666]' >From SMBs to freelancers, QuickTalk delivers smart communication and marketing solutions tailored to meet diverse industry needs and drive success.</p>
           </div>
 
         </div>

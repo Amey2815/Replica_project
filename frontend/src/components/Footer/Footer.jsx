@@ -45,7 +45,7 @@ const Footer = () => {
 
             <div className='md:flex block justify-between ' >
                 <div>
-                    <p className='text-[13px] text-[#A0A1A2] md:text-left text-center mb-2 ' >Copyright ©2025 CONNECTit App. All rights reserved</p>
+                    <p className='text-[13px] text-[#A0A1A2] md:text-left text-center mb-2 ' >Copyright ©2025 QuickTalk App. All rights reserved</p>
                 </div>
                 <div>
                     <ul className='flex justify-center mb-4' >
