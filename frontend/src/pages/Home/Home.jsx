@@ -12,12 +12,12 @@ const Home = () => {
                         <div className='mb-4 flex justify-center w-[400px] md:w-[700px]  lg:w-[916px]' >
                             <img className='h-[40px]' src={assets.highlight} alt="" />
                             <div className='lg:w-[896px] md:w-[600px] w-[300px] mb-5' >
-                                <h1 className='md:text-8xl text-6xl text-center text-[#0f110f] font-bold' >Your Branding Partner</h1>
+                                <h1 className='md:text-8xl text-6xl text-center text-[#0f110f] font-bold' >Your Partner <br /> in Powerful Branding</h1>
                             </div>
                             <img className='h-[45px] mt-9 animate-spin ' style={{ animation: 'spin 3s linear infinite' }} src={assets.shape} alt="" />
                         </div>
                         <div className='mb-4' >
-                            <p className='text-[27px] text-[#111111] font-semibold capitalize' >trusted by 10k+ businesses</p>
+                            <p className='text-[27px] text-[#111111] font-semibold capitalize' >trusted by 1k+ businesses</p>
                         </div>
                     </div>
 
@@ -40,19 +40,19 @@ const Home = () => {
                 <div className=' p-2.5  flex justify-center items-center   ' >
                     <div className='h-[153px] w-[1140px] flex justify-evenly items-center pt-10 gap-5 ' >
                         <div className='flex  flex-col justify-center items-center gap-3 w-full px-2.5 capitalize' >
-                            <h2 className=' text-3xl md:text-5xl font-bold' >10k+</h2>
+                            <h2 className=' text-3xl md:text-5xl font-bold' >1k+</h2>
                             <p className=' text-[14px] md:text-[16px] text-gray-400'>app user</p>
                         </div>
                         <div className='flex  flex-col justify-center items-center gap-3 w-full px-2.5 capitalize' >
-                            <h2 className=' text-3xl md:text-5xl font-bold' >250+</h2>
+                            <h2 className=' text-3xl md:text-5xl font-bold' >100+</h2>
                             <p className=' text-[14px] md:text-[16px] text-gray-400'>business catagories</p>
                         </div>
                         <div className='flex  flex-col justify-center items-center gap-3 w-full px-2.5 capitalize' >
-                            <h2 className=' text-3xl md:text-5xl font-bold' >50+</h2>
+                            <h2 className=' text-3xl md:text-5xl font-bold' >20+</h2>
                             <p className=' text-[14px] md:text-[16px] text-gray-400'>channel partners</p>
                         </div>
                         <div className='flex  flex-col justify-center items-center gap-3 w-full px-2.5 capitalize' >
-                            <h2 className=' text-3xl md:text-5xl font-bold' >4.7</h2>
+                            <h2 className=' text-3xl md:text-5xl font-bold' >4.5</h2>
                             <p className=' text-[14px] md:text-[16px] text-gray-400'>client rating</p>
                         </div>
                     </div>
@@ -69,7 +69,7 @@ const Home = () => {
                                 </div>
                             </div>
                             <div className=' h-12 md:h-[84px] w-[350px] md:w-[540px]  md:flex md:justify-center' >
-                                <p className=' text-[12px] md:text-[18px] text-gray-400 mb-4 font-semibold  ' >From small businesses to industry leaders, 10K+ trust CONNECTit to automate and optimize communication. Join them today!</p>
+                                <p className=' text-[12px] md:text-[18px] text-gray-400 mb-4 font-semibold  ' >From small businesses to industry leaders, 10K+ trust QuickTalk to automate and optimize communication. Join them today!</p>
                             </div>
                         </div>
 
@@ -88,8 +88,8 @@ const Home = () => {
                                 <div className='p-2.5 mt-0 md:mt-10' >
                                     <div className='p-10 md:my-5 bg-white rounded-2xl border border-gray-300 shadow-xl shadow-[#c6c6c6d2] ' >
                                         <div className='p-2.5' >
-                                            <h1 className='text-[21px] pb-2 font-bold ' >Enhanced Digital Presence</h1>
-                                            <p className='text-[16px] text-gray-500 ' >Digital Business Card Link for a professional online profile, social media content library with over 1 Lac graphics, and NFC-enabled Smart Card for instant sharing.</p>
+                                            <h1 className='text-[21px] pb-2 font-bold ' >Schedule Your Task</h1>
+                                            <p className='text-[16px] text-gray-500 ' >Scheduling allows users to automate the sending of SMS messages at a predetermined date and time. This feature is commonly used for reminders, marketing campaigns, appointment confirmations, and notifications.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -118,7 +118,7 @@ const Home = () => {
                                     <p className='md:text-[18px] text-[14px] font-semibold text-[#666666] ' >Our intelligent automation platform delivers seamless follow-ups, boosts customer engagement, and elevates your brand’s digital presence—all in one intuitive solution built for effortless growth.</p>
                                     <div className='flex justify-between items-center pt-[60px] pr-[20px]' >
                                         <img className='h-[48px] pr-2' src={assets.connect6} alt="" />
-                                        <p className='text-[#666666] text-[12px] md:text-[14px] ' >Trusted by 10k+ Business Owners Over India</p>
+                                        <p className='text-[#666666] text-[12px] md:text-[14px] ' >Trusted by 1k+ Business Owners Over India</p>
                                     </div>
                                 </div>
                             </div>
@@ -137,7 +137,7 @@ const Home = () => {
                             <img className='h-[45px] mt-9 animate-spin  ' style={{ animation: 'spin 3s linear infinite' }} src={assets.shape} alt="" />
                         </div>
                         <div className='mb-4' >
-                            <p className='md:text-[18px] text-[14px] text-[#666666] font-semibold capitalize' >Real Stories of Success and Satisfaction with CONNECTit</p>
+                            <p className='md:text-[18px] text-[14px] text-[#666666] font-semibold capitalize' >Real Stories of Success and Satisfaction with QuickTalk</p>
                         </div>
                     </div>
 
@@ -150,7 +150,7 @@ const Home = () => {
                                     </div>
                                 </div>
                                 <span>
-                                    <p className='text-[22px] text-center font-semibold mb-4 ' >“The CONNECTit app works very well. And their team is really nice to explain. I can definitely recommend you to use their services for business. “</p>
+                                    <p className='text-[22px] text-center font-semibold mb-4 ' >"QuickTalk is a lifesaver! I often miss calls during meetings, and the auto-reply feature ensures I never leave anyone hanging. Highly recommend!"</p>
                                 </span>
                                 <div className='flex justify-center mb-4 gap-1' >
                                     <IoStarSharp className='text-yellow-400 text-xl' />
@@ -159,7 +159,7 @@ const Home = () => {
                                     <IoStarSharp className='text-yellow-400 text-xl' />
                                     <IoStarSharp className='text-yellow-400 text-xl' />
                                 </div>
-                                <p className='text-[18px] text-[#666666] ' >- 24 Hours Cleaning Pvt. Ltd.</p>
+
                             </div>
                             <div className='flex flex-col justify-center items-center bg-white rounded-2xl shadow-2xl h-[504px] p-10 m-5' >
                                 <div className='flex justify-center items-center mb-4 ' >
@@ -168,7 +168,7 @@ const Home = () => {
                                     </div>
                                 </div>
                                 <span>
-                                    <p className='text-[22px] text-center font-semibold mb-4 ' >“The CONNECTit app works very well. And their team is really nice to explain. I can definitely recommend you to use their services for business. “</p>
+                                    <p className='text-[22px] text-center font-semibold mb-4 ' >"Excellent app! I use it daily while working. The auto SMS response to missed and incoming calls is smooth and professional."</p>
                                 </span>
                                 <div className='flex justify-center mb-4 gap-1' >
                                     <IoStarSharp className='text-yellow-400 text-xl' />
@@ -177,7 +177,7 @@ const Home = () => {
                                     <IoStarSharp className='text-yellow-400 text-xl' />
                                     <IoStarSharp className='text-yellow-400 text-xl' />
                                 </div>
-                                <p className='text-[18px] text-[#666666] ' >- 24 Hours Cleaning Pvt. Ltd.</p>
+
                             </div>
                             <div className='flex flex-col justify-center items-center bg-white rounded-2xl shadow-2xl h-[504px] p-10 m-5' >
                                 <div className='flex justify-center items-center mb-4 ' >
@@ -186,7 +186,7 @@ const Home = () => {
                                     </div>
                                 </div>
                                 <span>
-                                    <p className='text-[22px] text-center font-semibold mb-4 ' >“The CONNECTit app works very well. And their team is really nice to explain. I can definitely recommend you to use their services for business. “</p>
+                                    <p className='text-[22px] text-center font-semibold mb-4 ' >"Perfect for professionals! This app keeps communication flowing even when I'm in meetings or traveling. A must-have!"</p>
                                 </span>
                                 <div className='flex justify-center mb-4 gap-1' >
                                     <IoStarSharp className='text-yellow-400 text-xl' />
@@ -195,7 +195,7 @@ const Home = () => {
                                     <IoStarSharp className='text-yellow-400 text-xl' />
                                     <IoStarSharp className='text-yellow-400 text-xl' />
                                 </div>
-                                <p className='text-[18px] text-[#666666] ' >- 24 Hours Cleaning Pvt. Ltd.</p>
+
                             </div>
                         </div>
                     </div>

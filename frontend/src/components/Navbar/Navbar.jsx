@@ -28,7 +28,7 @@ const Navbar = () => {
               <a className='px-5 py-4 text-gray-600 hover:bg-gray-100 rounded-[8px] hover:text-violet-500 ' href="/Channel-Partner">Channel Partner</a>
             </div>
             <div  >
-              <a className='bg-black px-5 py-2 ml-3 text-white rounded-[8px] text-[15px] font-bold hover:bg-white hover:text-black transition-colors transform duration-300 hover:outline-black hover:outline-1 ' href="/book">Book Demo</a>
+              <a className='bg-black px-5 py-2 ml-3 text-white rounded-[8px] text-[15px] font-bold hover:bg-white hover:text-black transition-colors transform duration-300 hover:outline-black hover:outline-1 ' href="/">Book Demo</a>
             </div>
           </div>
           
