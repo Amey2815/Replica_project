@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const PricingPlans = () => {
   const plans = [
     {
@@ -7,12 +7,11 @@ const PricingPlans = () => {
       price: "Rs. 1499",
       oldPrice: "Rs. 2000",
       features: [
-        "Digital Business Card",
         "Auto Text SMS After Call",
         "Auto Whatsapp Message with media After Call",
-        "365 Days Daily Greetings Festival Posts",
+        "Whatsapp ChatBot",
       ],
-      hasChatbot: false,
+      hasChatbot: true,
       btnColor: "bg-purple-700 hover:bg-purple-800",
     },
     {
@@ -20,10 +19,8 @@ const PricingPlans = () => {
       price: "Rs. 3299",
       oldPrice: "Rs. 3700",
       features: [
-        "Digital Business Card",
         "Auto Text SMS After Call",
         "Auto Whatsapp Message with media After Call",
-        "365 Days Daily Greetings Festival Posts",
         "Whatsapp ChatBot",
       ],
       hasChatbot: true,
@@ -34,10 +31,8 @@ const PricingPlans = () => {
       price: "Rs. 5299",
       oldPrice: "Rs. 6000",
       features: [
-        "Digital Business Card",
         "Auto Text SMS After Call",
         "Auto Whatsapp Message with media After Call",
-        "365 Days Daily Greetings Festival Posts",
         "Whatsapp ChatBot",
       ],
       hasChatbot: true,
@@ -48,6 +43,10 @@ const PricingPlans = () => {
 
   return (
     <div className="bg-gradient-to-r from-blue-100 to-green-100 min-h-screen flex flex-col items-center justify-center px-4 py-10">
+      <div className="text-[18px] flex justify-center  text-gray-600 mb-5">
+        <Link to="/" className="text-blue-600 hover:underline">QuickTalk</Link> &nbsp;»&nbsp; 
+        <span className="text-gray-800 font-semibold">Pricing</span>
+      </div>
       <h1 className="text-3xl font-bold mb-10 text-center">Choose the right plan</h1>
       <div className="flex flex-col md:flex-row gap-6 max-w-6xl w-full justify-center">
         {plans.map((plan, index) => (
@@ -81,7 +80,7 @@ const PricingPlans = () => {
             <button
               className={`${plan.btnColor} text-white px-6 py-2 rounded-full transition duration-200`}
             >
-              Get started
+              <a href="http://wa.me/8530055138" target="_blank" >Get started</a>
             </button>
           </div>
         ))}

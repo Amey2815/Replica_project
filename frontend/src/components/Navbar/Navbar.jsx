@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import assets from '../../assets/assets.js'
 import { Menu, X } from 'lucide-react';
+import { Link } from 'react-router-dom';
 const Navbar = () => {
 
   const [isMenuOpen, setisMenuOpen] = useState(false);
@@ -22,10 +23,10 @@ const Navbar = () => {
           </div>
           <div className=' hidden lg:flex justify-center items-center ' >
             <div className='flex text-[16px] font-bold' >
-              <a className='px-5 py-4 text-gray-600 hover:bg-gray-100 rounded-[8px] hover:text-violet-500 ' href="/Home">Home</a>
-              <a className='px-5 py-4 text-gray-600 hover:bg-gray-100 rounded-[8px] hover:text-violet-500 ' href="/About-Us">About Us</a>
-              <a className='px-5 py-4 text-gray-600 hover:bg-gray-100 rounded-[8px] hover:text-violet-500 ' href="/Pricing">Pricing</a>
-              <a className='px-5 py-4 text-gray-600 hover:bg-gray-100 rounded-[8px] hover:text-violet-500 ' href="/Channel-Partner">Channel Partner</a>
+              <Link className='px-5 py-4 text-gray-600 hover:bg-gray-100 rounded-[8px] hover:text-violet-500 ' to="/Home">Home</Link>
+              <Link className='px-5 py-4 text-gray-600 hover:bg-gray-100 rounded-[8px] hover:text-violet-500 ' to="/About-Us">About Us</Link>
+              <Link className='px-5 py-4 text-gray-600 hover:bg-gray-100 rounded-[8px] hover:text-violet-500 ' to="/Pricing">Pricing</Link>
+              <Link className='px-5 py-4 text-gray-600 hover:bg-gray-100 rounded-[8px] hover:text-violet-500 ' to="/Channel-Partner">Channel Partner</Link>
             </div>
             <div  >
               <a className='bg-black px-5 py-2 ml-3 text-white rounded-[8px] text-[15px] font-bold hover:bg-white hover:text-black transition-colors transform duration-300 hover:outline-black hover:outline-1 ' href="http://wa.me/8530055138">Book Demo</a>

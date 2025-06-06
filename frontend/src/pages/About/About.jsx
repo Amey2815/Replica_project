@@ -25,7 +25,7 @@ const About = () => {
       <div className=' p-2.5  flex justify-center items-center pb-10  ' >
         <div className='md:h-[153px] h-[250px] md:w-[1140px] w-[300px] md:flex block justify-evenly items-center pt-10 gap-5 ' >
           <div className='flex  flex-col justify-center items-center gap-3 w-full px-2.5 capitalize' >
-            <h2 className=' text-3xl md:text-5xl font-bold' >10k+</h2>
+            <h2 className=' text-3xl md:text-5xl font-bold' >1k+</h2>
             <p className=' text-[14px] md:text-[16px] text-gray-400'>Happy Clients</p>
           </div>
           <div className='flex  flex-col justify-center items-center gap-3 w-full px-2.5 capitalize' >

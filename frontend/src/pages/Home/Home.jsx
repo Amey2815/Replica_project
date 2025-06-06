@@ -89,7 +89,7 @@ const Home = () => {
                                     <div className='p-10 md:my-5 bg-white rounded-2xl border border-gray-300 shadow-xl shadow-[#c6c6c6d2] ' >
                                         <div className='p-2.5' >
                                             <h1 className='text-[21px] pb-2 font-bold ' >Schedule Your Task</h1>
-                                            <p className='text-[16px] text-gray-500 ' >Scheduling allows users to automate the sending of SMS messages at a predetermined date and time. This feature is commonly used for reminders, marketing campaigns, appointment confirmations, and notifications.</p>
+                                            <p className='text-[16px] text-gray-500 ' >Scheduling allows users to automate the sending of SMS messages at a predetermined date and time.</p>
                                         </div>
                                     </div>
                                 </div>

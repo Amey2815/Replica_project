@@ -49,11 +49,11 @@ const Footer = () => {
                 </div>
                 <div>
                     <ul className='flex justify-center mb-4' >
-                        <li className='px-3 md:text-[13px] text-[10px] font-semibold  ' >home</li>
-                        <li className='px-3 md:text-[13px] text-[10px] font-semibold  ' >pricing</li>
-                        <li className='px-3 md:text-[13px] text-[10px] font-semibold  ' >privacy policy</li>
-                        <li className='px-3 md:text-[13px] text-[10px] font-semibold  ' >terms of service</li>
-                        <li className='px-3 md:text-[13px] text-[10px] font-semibold  ' >return and refund policy</li>
+                        <li className='px-3 md:text-[13px] text-[10px] font-semibold  ' ><a href="/">home</a></li>
+                        <li className='px-3 md:text-[13px] text-[10px] font-semibold  ' ><a href="/Pricing">pricing</a></li>
+                        <li className='px-3 md:text-[13px] text-[10px] font-semibold  ' ><a href="/privacy">privacy policy</a></li>
+                        <li className='px-3 md:text-[13px] text-[10px] font-semibold  ' ><a href="/terms">terms of service</a></li>
+                        <li className='px-3 md:text-[13px] text-[10px] font-semibold  ' ><a href="/refund">return and refund policy</a></li>
                     </ul>
                 </div>
             </div>
