@@ -3,9 +3,14 @@ import assets from '../../assets/assets';
 import { FaLightbulb } from "react-icons/fa";
 import { FcCustomerSupport } from "react-icons/fc";
 import { GiTakeMyMoney } from "react-icons/gi";
+import { Helmet } from 'react-helmet';
 const ChannelPartner = () => {
     return (
-        <div className="min-h-screen bg-gradient-to-tl from-violet-100 via-yellow-50 to-blue-100 flex flex-col items-center justify-center px-6 py-12">
+    <>
+    <Helmet>
+        <title>Channel - QuickTalk</title>
+    </Helmet>
+    <div className="min-h-screen bg-gradient-to-tl from-violet-100 via-yellow-50 to-blue-100 flex flex-col items-center justify-center px-6 py-12">
             <div className="max-w-5xl w-full grid md:grid-cols-2 gap-8 items-center">
                 {/* Image Section */}
                 <div className="rounded-xl overflow-hidden shadow-md p-6">
@@ -60,7 +65,7 @@ const ChannelPartner = () => {
                         <FcCustomerSupport className='text-[55px]' />
                     </div>
                     <h5 className='text-[21px] font-semibold pt-1.5 mb-3' >Comprehensive Support</h5>
-                    <p className='text-[16px]  mb-2 text-gray-700' >Access dedicated training, marketing resources, and technical assistance to ensure seamless integration and success in promoting CONNECTit’s solutions.</p>
+                    <p className='text-[16px]  mb-2 text-gray-700' >Access dedicated training, marketing resources, and technical assistance to ensure seamless integration and success in promoting QuickTalk’s solutions.</p>
                 </div>
                 <div className='p-10 m-5 bg-white rounded-2xl ' >
                     <div>
@@ -71,6 +76,8 @@ const ChannelPartner = () => {
                 </div>
             </div>
         </div>
+    </>
+        
     );
 };
 

@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 const PricingPlans = () => {
   const plans = [
@@ -42,6 +43,10 @@ const PricingPlans = () => {
   ];
 
   return (
+    <>
+    <Helmet>
+      <title>Pricing - QuickTalk</title>
+    </Helmet>
     <div className="bg-gradient-to-r from-blue-100 to-green-100 min-h-screen flex flex-col items-center justify-center px-4 py-10">
       <div className="text-[18px] flex justify-center  text-gray-600 mb-5">
         <Link to="/" className="text-blue-600 hover:underline">QuickTalk</Link> &nbsp;»&nbsp; 
@@ -86,6 +91,7 @@ const PricingPlans = () => {
         ))}
       </div>
     </div>
+    </>
   );
 };
 

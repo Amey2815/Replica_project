@@ -1,8 +1,13 @@
 import React from 'react'
+import { Helmet } from 'react-helmet';
 import { Link } from "react-router-dom";
 const Terms = () => {
   return (
-    <div className="bg-white px-4 py-8 sm:px-8 md:px-16 lg:px-32 max-w-screen-xl mx-auto text-sm text-gray-800">
+  <>
+  <Helmet>
+    <title>Terms of Service - QuickTalk</title>
+  </Helmet>
+  <div className="bg-white px-4 py-8 sm:px-8 md:px-16 lg:px-32 max-w-screen-xl mx-auto text-sm text-gray-800">
       <div className="text-[18px] flex justify-center  text-gray-600 mb-5">
         <Link to="/" className="text-blue-600 hover:underline">QuickTalk</Link> &nbsp;»&nbsp; 
         <span className="text-gray-800 font-semibold">Terms of Service</span>
@@ -69,6 +74,7 @@ const Terms = () => {
         </section>
       ))}
     </div>
+  </>   
   )
 }
 

@@ -1,7 +1,12 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import { Link } from 'react-router-dom'
 const Privacy = () => {
   return (
+    <>
+    <Helmet>
+      <title>Privacy Policy - QuickTalk</title>
+    </Helmet>
     <div className='bg-gradient-to-tl from-blue-50 via-violet-50 to-yellow-50 py-7' >
       <div className=" px-4 py-8 sm:px-8 md:px-16 lg:px-32 max-w-screen-xl mx-auto text-sm text-gray-800">
         <div className="text-[18px] flex justify-center  text-gray-600 mb-5">
@@ -146,6 +151,8 @@ const Privacy = () => {
         </section>
       </div>
     </div>
+    </>
+    
 
   )
 }
